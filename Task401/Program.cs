@@ -4,7 +4,6 @@
 // НЕЛЬЗЯ ИСПОЛЬЗОВАТЬ Math.Pow
 
 
-// использовать методы!!!!!
 class Exponentiation
 {
     static void Main()

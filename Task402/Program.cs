@@ -6,7 +6,7 @@
 
 class SumOfNumbers
 {
-    static void Main()
+    static void Main()                                          
     {
         Console.Write("Введите число: ");                        //Вводим произвольное число
         int i = Convert.ToInt32(Console.ReadLine());

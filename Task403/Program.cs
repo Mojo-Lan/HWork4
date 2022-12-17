@@ -5,7 +5,7 @@
 int n = 10;
 for (int i = 0; i < n; i++)
 {
-    Console.WriteLine($"{i}³ = {i*i*i}");
+    Console.WriteLine($"{i}^3 = {i * i * i}");
 }
 //Console.WriteLine(MyLibrary.Pow(2, 10));
 Console.WriteLine(MyLibrary.ToDec(new int[] { 9, 4, 12 }));

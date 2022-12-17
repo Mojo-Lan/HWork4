@@ -1,4 +1,4 @@
-public static class MyLibrary
+public class MyLibrary
 {
     //создание массива
     public static int[] CreateArray(int count)
@@ -9,8 +9,7 @@ public static class MyLibrary
     //заполнение числами от 0-14
     public static void Fill(int[] array)
     {
-
-        for (int i = 0; i < array.length; i++)
+        for (int i = 0; i < array.Length; i++)
         {
             array[i] = Random.Shared.Next(0, 15);
         }
@@ -22,8 +21,7 @@ public static class MyLibrary
         return String.Join(' ', array);
     }
 
-
-    int Pow(int a, int b)
+    public static int Pow(int a, int b)
     {
         int result = 1;
         for (int i = 0; i < b; i++)
@@ -32,7 +30,6 @@ public static class MyLibrary
         }
         return result;
     }
-Console.WriteLine(Pow(2, 10));
 
     //написать конвертов из 15-ой в 10-ую
     //[6, 4, 3, 10]

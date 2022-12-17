@@ -1,4 +1,4 @@
-public class MyLibrary
+public static class MyLibrary
 {
     //создание массива
     public static int[] CreateArray(int count)
@@ -32,6 +32,7 @@ public class MyLibrary
         }
         return result;
     }
+Console.WriteLine(Pow(2, 10));
 
     //написать конвертов из 15-ой в 10-ую
     //[6, 4, 3, 10]

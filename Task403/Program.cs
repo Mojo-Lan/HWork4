@@ -7,13 +7,6 @@ public static class ArrayN
 {
     public static void Main()
     {
-        // int n = 10;
-        // for (int i = 0; i < n; i++)
-        // {
-        //     Console.WriteLine($"{i}^3 = {i * i * i}");
-        // }
-        // //Console.WriteLine(MyLibrary.Pow(2, 10));
-        
         int size = Input("Сколько чисел в массиве: ");
         int[] ar = CreateArray(size);
         Fill(ar);

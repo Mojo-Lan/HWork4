@@ -6,7 +6,7 @@
 
 class Exponentiation
 {
-    static void Main()
+    static void Main(string[] args)
     {
         Console.Write("Введите число A - ");                //Вводим число А
         int a = Convert.ToInt32(Console.ReadLine());
